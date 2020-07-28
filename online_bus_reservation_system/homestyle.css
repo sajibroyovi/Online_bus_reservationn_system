@@ -1,0 +1,166 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+body{
+	background-image:url("logo/3.jpg");	
+	background-size:cover;	
+}
+nav{
+	background:#0082e6;
+	height:85px;
+	width:100%;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+	float:left;
+}
+
+nav ul{
+	float:left;
+	
+}
+nav ul li{
+	display:inline-block;
+	line-height:20px;
+	margin-top:30px;
+	position:relative;
+	
+}
+
+
+nav ul li a{
+	color:white;
+	border-radius:3px;
+	font-size:17px;
+	padding:7px 13px;
+	text-transform:uppercase;
+}
+.sublist{
+	float:right;
+}
+.submenu{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15px;
+}
+.submenu a {
+  color: black; 
+  text-decoration: none;
+  display: block;
+}
+.sublist:hover .submenu{
+  display: block;
+  background-color: #3e8e41;
+}
+a:hover{
+	background:red;	
+}
+
+.logout{
+	width:100px;
+	float:right;
+	position: relative;
+  display:block;
+}
+.logout img{
+	height:40px;
+	width:40px;
+	margin-right:50px;
+	margin-top:20px;
+	float:right;
+}
+.sub{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+
+}
+.sub a {
+  color: black;
+  padding: 10;
+  text-decoration: none;
+  display: block;
+}
+.sub a:hover {background-color: #f1f1f1}
+
+.logout:hover .sub{
+  display: block;
+  background-color: #3e8e41;
+}
+p{
+	cursor:pointer;
+	font-size:20px;
+}
+.search_box{
+	width:1200px;
+	height:100px;
+	margin-left:150px;
+	margin-top:30px;	
+}
+h2{
+	color:black;
+	padding:15px;
+	margin-top:10px;
+}
+.from{
+	float:left;
+}
+.from2{
+	float:left;
+	margin-left:50px;
+}
+select{
+	width: 300px;
+	height:40px;
+	padding:10px;
+	background-color:transparent;
+	color:black;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+
+.submit{
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+.cal{
+	float:left;
+	margin-left:50px;
+}
+.cal input[type="date"]{
+	
+	font-size:20px;
+	background-color:transparent;
+	color:black;
+	font-weight:bold;
+}
+.submit button{
+	width: 150px;
+	height:40px;
+	padding: 10px;
+	border:none;
+	background:#99cc00;	
+	border-radius:5px;
+	margin-top:15px;
+	font-size:20px;
+	margin-left:10px;
+
+}
+h1{
+	margin-left:400px;
+	margin-top:35px;
+	float:left;
+	color:white;
+}

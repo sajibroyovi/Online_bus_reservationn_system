@@ -1,0 +1,75 @@
+body{
+	
+}
+.create-account{
+
+	width:500px;
+	margin-left:300px;
+	
+	
+}
+.create-account h1{
+	color:black;
+	font-family:Arial;
+}
+.create-account h4{
+	color:black;
+	font-family:Arial;
+}
+.create-account h3{
+	color:black;
+	font-family:Arial;
+}
+.create-account h5{
+	color:black;
+	font-family:Arial;
+}
+.fname{
+	width: 180px;
+	padding: 8px;
+	margin-top:10px;	
+	margin-right:18px;
+	border-radius:5px;
+	margin-bottom:5px;
+}
+h4{
+	margin-bottom:5px;
+	font-size:20px;
+}
+.sname{
+	width: 180px;
+	padding: 8px;
+	margin-top:10px;
+	border-radius:5px;
+}
+.mno{
+	width: 390px;
+	padding: 8px;
+	margin-top:10px;
+	border-radius:5px;
+}
+.npass{
+	width: 390px;
+	padding: 8px;
+	margin-top:10px;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+.sup input[type="submit"]{
+	width: 200px;
+	height:40px;
+	padding: 8px;
+	margin-top:10px;
+	border:none;
+	background:#358E41;
+	color:#fff;
+	border-radius:5px;
+
+}
+h4{
+	margin:no;
+}
+select{
+	height:30px;
+	margin:5px;
+}

@@ -1,0 +1,366 @@
+*{
+margin:0px;
+padding:0px;
+text-decoration:none;
+}
+nav{
+	background:#0082e6;
+	height:90px;
+	width:100%;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+	float:left;
+}
+
+nav ul{
+	float:left;
+	
+}
+
+nav img{
+	height:40px;
+	width:40px;
+	margin-right:100px;
+	margin-top:20px;
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	margin-top:30px;
+	position:relative;
+	
+}
+
+
+nav ul li a{
+	color:white;
+	border-radius:3px;
+	font-size:17px;
+	padding:7px 13px;
+	text-transform:uppercase;
+}
+.sublist{
+	float:right;
+}
+.submenu{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15px;
+}
+.submenu a {
+  color: black; 
+  text-decoration: none;
+  display: block;
+}
+.sublist:hover .submenu{
+  display: block;
+  background-color: #3e8e41;
+}
+a:hover{
+	background:red;	
+}
+
+.logout{
+	width:100px;
+	height:50px;
+	float:right;
+	position: relative;
+  display:block;
+}
+.logout img{
+	height:40px;
+	width:40px;
+	margin-right:50px;
+	margin-top:20px;
+	float:right;
+}
+.sub{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.sub a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.sub a:hover {background-color: #f1f1f1}
+
+.logout:hover .sub{
+  display: block;
+  background-color: #3e8e41;
+  overflow:hidden;
+}
+p{
+	cursor:pointer;
+	font-size:20px;
+}
+.input_box{
+	font-size:20px; 
+	height:100%;
+	width:250px;
+	position:relative;
+    margin-left: 580px;
+	margin-top:10px;
+	overflow:hidden;
+	
+}
+.input_box input[type=text]{
+	border-radius:10px;
+}
+.plane {
+  margin: 20px auto;
+  max-width: 180px;
+}
+
+.cockpit {
+  height: 50px; 
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 5px solid #d8d8d8;
+  width:190px;
+ 
+  }
+
+.exit {
+  position: relative;
+  height: 50px;
+
+  }
+.exit:before{
+    content: "EXIT";
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 2px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: absolute;
+    background: green;
+    color: white;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+.exit:after {
+
+    content: "PILOT";
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 2px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: absolute;
+    background: green;
+    color: white;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+.exit:before {
+    left: 0;
+  }
+.exit:after{
+	right:0;
+}
+
+.fuselage {
+  border-right: 5px solid #d8d8d8;
+  border-left: 5px solid #d8d8d8;
+  border-bottom: 5px solid #d8d8d8;
+  width:180px;
+  
+}
+
+ol {
+  list-style :none;
+  padding: 0;
+  margin:0;
+}
+
+.row {
+  
+}
+
+.seats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;  
+}
+
+.seat {
+  display: flex;
+  flex: 0 0 14.28571428571429%;
+  padding: 5px;
+  position: relative;  
+  
+}
+.seat:nth-child(1){
+    margin-right: 14.28571428571429%;
+}
+.seat input[type=checkbox] {
+    position: absolute;
+    opacity:0;
+  }
+.seat input[type=checkbox]:checked + label{ 	
+      background: #bada55;      
+      -webkit-animation-name: rubberBand;
+          animation-name: rubberBand;
+      animation-duration: 300ms;
+      animation-fill-mode: both;
+	  margin-left:5px;
+    
+  }
+.seat input[type=checkbox]:disabled + label{   
+     background: #F42536;
+      text-indent: -9999px;
+      overflow: hidden;
+	  	margin-left:5px;  
+		cursor:not-allowed;
+    }
+.seat input[type=checkbox]:disabled + label:after{
+	    content: "X";
+        text-indent: 0;
+        position: absolute;
+        top: 4px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+		text-align:center;
+		cursor:not-allowed;
+}
+.seat label:hover {
+        box-shadow: none;
+        cursor: not-allowed;
+}
+.seat label:hover {
+      cursor: pointer;
+      box-shadow: 0 0 0px 2px #5C6AFF;
+    }
+.seat label {    
+    display: block;
+    position: relative;    
+    width: 35px;    
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2rem;
+	 background: #dddddd;
+    border-radius: 5px;
+    animation-duration: 300ms;
+    animation-fill-mode: both;  
+	margin-left:5px;
+}
+
+
+.seat label:after {
+        content: "";
+        text-indent: 0;
+        position: absolute;
+        top: 4px;
+        left: 50%;
+		text-align:center;
+}
+.submit{
+	float:left;
+	margin-top:20px;
+	
+}
+.submit input[type=submit]{
+	cursor:pointer;
+	width: 200px;
+	height:40px;
+	padding: 10px;
+	border:none;
+	background:#99cc00;	
+	border-radius:5px;
+	margin-top:15px;
+	font-size:20px;
+	margin-left:5px;
+
+}
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+            transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+            transform: scale3d(1.05, .95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+            transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+            transform: scale3d(1.05, .95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+          animation-name: rubberBand;
+}

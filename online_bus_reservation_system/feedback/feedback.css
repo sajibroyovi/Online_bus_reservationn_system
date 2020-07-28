@@ -1,0 +1,129 @@
+*{
+margin:0px;
+padding:0px;
+text-decoration:none;
+}
+nav{
+	background:#0082e6;
+	height:90px;
+	width:100%;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+	float:left;
+}
+
+nav ul{
+	float:left;
+	
+}
+
+nav img{
+	height:40px;
+	width:40px;
+	margin-right:100px;
+	margin-top:20px;
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	margin-top:30px;
+	position:relative;
+	
+}
+
+
+nav ul li a{
+	color:white;
+	border-radius:3px;
+	font-size:17px;
+	padding:7px 13px;
+	text-transform:uppercase;
+}
+.sublist{
+	float:right;
+}
+.submenu{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15px;
+}
+.submenu a {
+  color: black; 
+  text-decoration: none;
+  display: block;
+}
+.sublist:hover .submenu{
+  display: block;
+  background-color: #3e8e41;
+}
+a:hover{
+	background:red;	
+}
+
+.logout{
+	width:100px;
+	height:50px;
+	float:right;
+	position: relative;
+  display:block;
+}
+.logout img{
+	height:40px;
+	width:40px;
+	margin-right:50px;
+	margin-top:20px;
+	float:right;
+}
+.sub{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.sub a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.sub a:hover {background-color: #f1f1f1}
+
+.logout:hover .sub{
+  display: block;
+  background-color: #3e8e41;
+  overflow:hidden;
+}
+p{
+	cursor:pointer;
+	font-size:20px;
+}
+.feedback{
+	margin-left:300px;
+	margin-top:50px;
+	font-size:20px;
+	line-height:30px;
+	
+}
+.send{
+	margin-left:20px;
+}
+.send input[type=submit]{
+	cursor:pointer;
+	width: 200px;
+	height:40px;
+	padding: 10px;
+	border:none;
+	background:#99cc00;	
+	border-radius:5px;
+	margin-top:15px;
+	font-size:20px;
+	margin-left:5px;
+	
+}
