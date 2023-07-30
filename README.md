@@ -1,4 +1,7 @@
 # Online_bus_reservationn_system
+Language Used
+HTML, CSS, PHP, SQL
+
 Online Bus Ticket Reservation System is a Web based application that works within a 
 centralized network. This project presents a review on the software program "Online Bus Ticket 
 Reservation System" as should be used in a bus transportation system, a facility which is used to 
@@ -15,3 +18,4 @@ functionality of the designed software, an additional functionality such as the 
 send tickets and notifications to the customer and an online payment using credit cards/debit 
 cards should be implemented into the system. Furthermore, other operations carried by ITC such 
 as the courier services should also be integrated in order to enhance the system
+
